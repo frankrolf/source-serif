@@ -2,19 +2,19 @@
 <glyph name="turkicdsccmb" format="2">
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="-129" y="-208" type="line"/>
+			<point name="hintRef0000" x="-129" y="-208" type="line"/>
 			<point x="-117" y="-214"/>
 			<point x="-103" y="-220"/>
 			<point x="-65" y="-220" type="curve"/>
 			<point x="14" y="-220"/>
 			<point x="49" y="-175"/>
 			<point x="49" y="-122" type="curve"/>
-			<point x="49" y="-81"/>
+			<point name="hintRef0001" x="49" y="-81"/>
 			<point x="28" y="-35"/>
 			<point x="-11" y="-5" type="curve"/>
 			<point x="-11" y="0" type="line"/>
-			<point name="hintSet0005" x="-26" y="0" type="line"/>
-			<point name="hintSet0006" x="-13" y="-28"/>
+			<point x="-26" y="0" type="line"/>
+			<point x="-13" y="-28"/>
 			<point x="-1" y="-73"/>
 			<point x="-1" y="-110" type="curve"/>
 			<point x="-1" y="-156"/>
@@ -33,7 +33,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -220 24</string>
@@ -42,17 +42,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0005</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -220 24</string>
-							<string>vstem -26 15</string>
-							<string>vstem -1 50</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0006</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -220 24</string>

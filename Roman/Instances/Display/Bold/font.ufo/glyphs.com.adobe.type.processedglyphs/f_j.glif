@@ -3,7 +3,7 @@
 	<advance width="562"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="28" y="0" type="line"/>
+			<point name="hintRef0000" x="28" y="0" type="line"/>
 			<point x="265" y="0" type="line"/>
 			<point x="265" y="22" type="line"/>
 			<point x="216" y="30" type="line"/>
@@ -29,7 +29,7 @@
 			<point x="232" y="-135"/>
 			<point x="208" y="-155"/>
 			<point x="204" y="-187" type="curve"/>
-			<point x="216" y="-231"/>
+			<point name="hintRef0001" x="216" y="-231"/>
 			<point x="253" y="-246"/>
 			<point x="305" y="-246" type="curve"/>
 			<point x="345" y="-246"/>
@@ -65,7 +65,7 @@
 			<point x="123" y="631"/>
 			<point x="91" y="551"/>
 			<point x="83" y="462" type="curve"/>
-			<point x="20" y="450" type="line"/>
+			<point name="hintRef0002" x="20" y="450" type="line"/>
 			<point x="20" y="428" type="line"/>
 			<point x="80" y="428" type="line"/>
 			<point x="80" y="209" type="line"/>
@@ -83,12 +83,38 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -246 111</string>
 							<string>hstem 0 26</string>
 							<string>hstem 428 30</string>
+							<string>hstem 715 26</string>
+							<string>vstem 80 133</string>
+							<string>vstem 361 133</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0001</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -225 -21</string>
+							<string>hstem 0 26</string>
+							<string>hstem 428 30</string>
+							<string>hstem 715 26</string>
+							<string>vstem 80 133</string>
+							<string>vstem 361 133</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0002</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -225 -21</string>
+							<string>hstem 0 26</string>
+							<string>hstem 428 22</string>
 							<string>hstem 715 26</string>
 							<string>vstem 80 133</string>
 							<string>vstem 361 133</string>

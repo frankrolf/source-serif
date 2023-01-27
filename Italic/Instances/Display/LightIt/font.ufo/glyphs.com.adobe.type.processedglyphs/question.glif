@@ -4,7 +4,7 @@
 	<advance width="394"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="91" y="171" type="curve"/>
+			<point name="hintRef0000" x="91" y="171" type="curve"/>
 			<point x="107" y="169" type="line"/>
 			<point x="114" y="246"/>
 			<point x="125" y="282"/>
@@ -44,17 +44,17 @@
 			<point x="96" y="259"/>
 		</contour>
 		<contour>
-			<point name="hintSet0015" x="50" y="24" type="curve"/>
-			<point x="50" y="6"/>
+			<point x="50" y="24" type="curve"/>
+			<point name="hintRef0001" x="50" y="6"/>
 			<point x="64" y="-9"/>
 			<point x="83" y="-9" type="curve"/>
 			<point x="105" y="-9"/>
 			<point x="125" y="8"/>
 			<point x="125" y="34" type="curve"/>
-			<point name="hintSet0018" x="125" y="51"/>
+			<point name="hintRef0002" x="125" y="51"/>
 			<point x="111" y="67"/>
 			<point x="93" y="67" type="curve"/>
-			<point name="hintSet0019" x="70" y="67"/>
+			<point x="70" y="67"/>
 			<point x="50" y="51"/>
 		</contour>
 	</outline>
@@ -66,7 +66,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 12 -21</string>
@@ -77,7 +77,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0015</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 12 -21</string>
@@ -88,21 +88,10 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0018</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -9 76</string>
-							<string>hstem 672 15</string>
-							<string>vstem 50 75</string>
-							<string>vstem 377 37</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0019</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 12 -21</string>
 							<string>hstem 672 15</string>
 							<string>vstem 50 75</string>
 							<string>vstem 377 37</string>

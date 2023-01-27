@@ -4,8 +4,8 @@
 	<advance width="644"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="154" y="-16" type="line"/>
-			<point name="hintSet0001" x="316" y="3" type="line"/>
+			<point name="hintRef0000" x="154" y="-16" type="line"/>
+			<point x="316" y="3" type="line"/>
 			<point x="317" y="55"/>
 			<point x="318" y="126"/>
 			<point x="320" y="191" type="curve"/>
@@ -31,8 +31,8 @@
 			<point x="461" y="-228"/>
 			<point x="561" y="-136"/>
 			<point x="631" y="103" type="curve"/>
-			<point name="hintSet0011" x="616" y="130" type="line"/>
-			<point x="603" y="124"/>
+			<point x="616" y="130" type="line"/>
+			<point name="hintRef0001" x="603" y="124"/>
 			<point x="588" y="120"/>
 			<point x="566" y="120" type="curve"/>
 			<point x="516" y="120"/>
@@ -63,8 +63,8 @@
 			<point x="154" y="491"/>
 			<point x="107" y="460"/>
 			<point x="81" y="415" type="curve"/>
-			<point name="hintSet0023" x="95" y="385" type="line"/>
-			<point x="102" y="387"/>
+			<point x="95" y="385" type="line"/>
+			<point name="hintRef0002" x="102" y="387"/>
 			<point x="112" y="388"/>
 			<point x="120" y="388" type="curve"/>
 			<point x="150" y="388"/>
@@ -82,7 +82,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -228 131</string>
@@ -93,18 +93,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0001</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -228 131</string>
-							<string>hstem 5 -21</string>
-							<string>hstem 491 -20</string>
-							<string>vstem 14 302</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0011</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -228 131</string>
@@ -115,7 +104,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0023</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -228 131</string>

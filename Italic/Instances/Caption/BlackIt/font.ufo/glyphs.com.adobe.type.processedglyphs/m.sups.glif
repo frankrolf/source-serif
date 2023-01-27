@@ -4,8 +4,8 @@
 	<advance width="730"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="468" y="415" type="line"/>
-			<point name="hintSet0001" x="526" y="663" type="line"/>
+			<point name="hintRef0000" x="468" y="415" type="line"/>
+			<point x="526" y="663" type="line"/>
 			<point x="544" y="675"/>
 			<point x="560" y="681"/>
 			<point x="576" y="681" type="curve"/>
@@ -15,8 +15,8 @@
 			<point x="605" y="648"/>
 			<point x="602" y="639"/>
 			<point x="597" y="617" type="curve"/>
-			<point name="hintSet0005" x="580" y="552" type="line"/>
-			<point x="575" y="530"/>
+			<point x="580" y="552" type="line"/>
+			<point name="hintRef0001" x="575" y="530"/>
 			<point x="567" y="505"/>
 			<point x="567" y="475" type="curve"/>
 			<point x="567" y="433"/>
@@ -32,8 +32,8 @@
 			<point x="706" y="481"/>
 			<point x="706" y="497"/>
 			<point x="717" y="540" type="curve"/>
-			<point name="hintSet0012" x="739" y="628" type="line"/>
-			<point x="745" y="650"/>
+			<point x="739" y="628" type="line"/>
+			<point name="hintRef0002" x="745" y="650"/>
 			<point x="750" y="671"/>
 			<point x="750" y="701" type="curve"/>
 			<point x="750" y="744"/>
@@ -83,18 +83,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 404 77</string>
-							<string>hstem 681 94</string>
-							<string>vstem 381 133</string>
-							<string>vstem 567 143</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0001</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 404 77</string>
@@ -105,7 +94,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0005</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 404 77</string>
@@ -116,7 +105,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0012</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 404 77</string>

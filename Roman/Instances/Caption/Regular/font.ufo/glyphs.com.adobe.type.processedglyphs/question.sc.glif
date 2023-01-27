@@ -3,7 +3,7 @@
 	<advance width="387"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="121" y="195" type="line"/>
+			<point name="hintRef0000" x="121" y="195" type="line"/>
 			<point x="168" y="195" type="line"/>
 			<point x="168" y="206" type="line"/>
 			<point x="168" y="253"/>
@@ -38,17 +38,17 @@
 			<point x="113" y="213" type="curve"/>
 		</contour>
 		<contour>
-			<point name="hintSet0015" x="146" y="-10" type="curve"/>
-			<point x="182" y="-10"/>
+			<point x="146" y="-10" type="curve"/>
+			<point name="hintRef0001" x="182" y="-10"/>
 			<point x="211" y="22"/>
 			<point x="211" y="61" type="curve"/>
-			<point name="hintSet0017" x="211" y="101"/>
+			<point name="hintRef0002" x="211" y="101"/>
 			<point x="182" y="133"/>
 			<point x="146" y="133" type="curve"/>
 			<point x="110" y="133"/>
 			<point x="81" y="101"/>
 			<point x="81" y="61" type="curve"/>
-			<point name="hintSet0019" x="81" y="22"/>
+			<point x="81" y="22"/>
 			<point x="110" y="-10"/>
 		</contour>
 	</outline>
@@ -60,17 +60,17 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
-							<string>hstem 11 -21</string>
+							<string>hstem -10 143</string>
 							<string>vstem 99 69</string>
 							<string>vstem 262 65</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0015</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 11 -21</string>
@@ -80,20 +80,10 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0017</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 143</string>
-							<string>vstem 81 130</string>
-							<string>vstem 262 65</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0019</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 11 -21</string>
 							<string>vstem 81 130</string>
 							<string>vstem 262 65</string>
 						</array>

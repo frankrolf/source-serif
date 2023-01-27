@@ -4,12 +4,12 @@
 	<advance width="460"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="380" y="-12" type="curve"/>
+			<point name="hintRef0000" x="380" y="-12" type="curve"/>
 			<point x="401" y="-12"/>
 			<point x="425" y="-1"/>
 			<point x="436" y="16" type="curve"/>
 			<point x="430" y="22" type="line"/>
-			<point name="hintSet0003" x="415" y="7"/>
+			<point name="hintRef0001" x="415" y="7"/>
 			<point x="399" y="1"/>
 			<point x="385" y="1" type="curve"/>
 			<point x="358" y="1"/>
@@ -42,7 +42,7 @@
 			<point x="95" y="203"/>
 			<point x="52" y="161"/>
 			<point x="52" y="95" type="curve"/>
-			<point name="hintSet0016" x="52" y="26"/>
+			<point name="hintRef0002" x="52" y="26"/>
 			<point x="95" y="-12"/>
 			<point x="164" y="-12" type="curve"/>
 			<point x="219" y="-12"/>
@@ -53,7 +53,7 @@
 			<point x="342" y="-12"/>
 		</contour>
 		<contour>
-			<point name="hintSet0020" x="104" y="532" type="line"/>
+			<point x="104" y="532" type="line"/>
 			<point x="212" y="624" type="line"/>
 			<point x="320" y="532" type="line"/>
 			<point x="327" y="539" type="line"/>
@@ -99,7 +99,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -12 16</string>
@@ -110,7 +110,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0003</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -12 13</string>
@@ -121,18 +121,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0016</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -12 16</string>
-							<string>hstem 447 13</string>
-							<string>vstem 52 24</string>
-							<string>vstem 320 24</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0020</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -12 16</string>

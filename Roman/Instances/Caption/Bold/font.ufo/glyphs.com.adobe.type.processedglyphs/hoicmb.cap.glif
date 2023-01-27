@@ -2,14 +2,14 @@
 <glyph name="hoicmb.cap" format="2">
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="-34" y="706" type="line"/>
-			<point x="44" y="715"/>
+			<point name="hintRef0000" x="-34" y="706" type="line"/>
+			<point name="hintRef0001" x="44" y="715"/>
 			<point x="94" y="743"/>
 			<point x="94" y="806" type="curve"/>
 			<point x="94" y="869"/>
 			<point x="41" y="902"/>
 			<point x="-59" y="910" type="curve"/>
-			<point x="-70" y="813" type="line"/>
+			<point name="hintRef0002" x="-70" y="813" type="line"/>
 			<point x="-10" y="810"/>
 			<point x="7" y="801"/>
 			<point x="7" y="784" type="curve"/>
@@ -28,7 +28,25 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 706 51</string>
+							<string>vstem 7 87</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0001</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 706 204</string>
+							<string>vstem 7 87</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 706 51</string>

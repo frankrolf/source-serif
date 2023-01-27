@@ -4,7 +4,7 @@
 	<advance width="280"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="128" y="-10" type="curve"/>
+			<point name="hintRef0000" x="128" y="-10" type="curve"/>
 			<point x="172" y="-10"/>
 			<point x="212" y="32"/>
 			<point x="260" y="92" type="curve"/>
@@ -18,8 +18,8 @@
 			<point x="98" y="74"/>
 			<point x="104" y="108"/>
 			<point x="110" y="136" type="curve"/>
-			<point name="hintSet0006" x="234" y="738" type="line"/>
-			<point name="hintSet0007" x="218" y="742" type="line"/>
+			<point x="234" y="738" type="line"/>
+			<point name="hintRef0001" x="218" y="742" type="line"/>
 			<point x="88" y="732" type="line"/>
 			<point x="84" y="710" type="line"/>
 			<point x="199" y="706" type="line"/>
@@ -34,8 +34,8 @@
 			<point x="92" y="-10"/>
 		</contour>
 		<contour>
-			<point name="hintSet0015" x="104" y="-180" type="curve"/>
-			<point x="125" y="-180"/>
+			<point x="104" y="-180" type="curve"/>
+			<point name="hintRef0002" x="125" y="-180"/>
 			<point x="141" y="-164"/>
 			<point x="141" y="-142" type="curve"/>
 			<point x="141" y="-125"/>
@@ -62,18 +62,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -10 26</string>
-							<string>hstem 708 34</string>
-							<string>hstem 863 28</string>
-							<string>vstem 68 30</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0006</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 26</string>
@@ -84,7 +73,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0007</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 26</string>
@@ -95,7 +84,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0015</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -180 68</string>

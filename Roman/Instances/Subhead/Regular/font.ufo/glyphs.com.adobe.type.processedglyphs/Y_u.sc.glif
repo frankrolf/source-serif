@@ -3,7 +3,7 @@
 	<advance width="881"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="581" y="27" type="curve"/>
+			<point name="hintRef0000" x="581" y="27" type="curve"/>
 			<point x="474" y="27"/>
 			<point x="429" y="146"/>
 			<point x="429" y="273" type="curve"/>
@@ -24,11 +24,11 @@
 			<point x="825" y="469"/>
 			<point x="711" y="558"/>
 			<point x="581" y="558" type="curve"/>
-			<point name="hintSet0008" x="456" y="558"/>
+			<point name="hintRef0001" x="456" y="558"/>
 			<point x="346" y="470"/>
 			<point x="337" y="296" type="curve"/>
 			<point x="212" y="296" type="line"/>
-			<point name="hintSet0010" x="212" y="363"/>
+			<point name="hintRef0002" x="212" y="363"/>
 			<point x="212" y="436"/>
 			<point x="214" y="503" type="curve"/>
 			<point x="290" y="512" type="line"/>
@@ -52,7 +52,7 @@
 			<point x="212" y="179"/>
 			<point x="212" y="258" type="curve"/>
 			<point x="336" y="258" type="line"/>
-			<point name="hintSet0026" x="342" y="79"/>
+			<point x="342" y="79"/>
 			<point x="454" y="-13"/>
 		</contour>
 	</outline>
@@ -64,7 +64,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -13 40</string>
@@ -77,7 +77,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0008</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 0 37.5</string>
@@ -90,25 +90,12 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0010</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 0 37.5</string>
 							<string>hstem 258 38</string>
 							<string>hstem 507.5 37.5</string>
-							<string>vstem 132 80</string>
-							<string>vstem 336 93</string>
-							<string>vstem 732 93</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0026</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -13 40</string>
-							<string>hstem 258 38</string>
-							<string>hstem 517 41</string>
 							<string>vstem 132 80</string>
 							<string>vstem 336 93</string>
 							<string>vstem 732 93</string>

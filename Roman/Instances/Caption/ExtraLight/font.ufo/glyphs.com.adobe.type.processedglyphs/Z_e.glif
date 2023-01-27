@@ -4,15 +4,15 @@
 	<advance width="552"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="256" y="-12" type="curve"/>
+			<point name="hintRef0000" x="256" y="-12" type="curve"/>
 			<point x="400" y="-12"/>
 			<point x="488" y="64"/>
 			<point x="488" y="182" type="curve"/>
-			<point x="488" y="300"/>
+			<point name="hintRef0001" x="488" y="300"/>
 			<point x="400" y="348"/>
 			<point x="264" y="352" type="curve"/>
 			<point x="264" y="356" type="line"/>
-			<point name="hintSet0004" x="392" y="360"/>
+			<point name="hintRef0002" x="392" y="360"/>
 			<point x="468" y="424"/>
 			<point x="468" y="524" type="curve"/>
 			<point x="468" y="624"/>
@@ -34,7 +34,7 @@
 			<point x="376" y="368"/>
 			<point x="224" y="368" type="curve"/>
 			<point x="192" y="368" type="line"/>
-			<point name="hintSet0014" x="192" y="340" type="line"/>
+			<point name="hintRef0003" x="192" y="340" type="line"/>
 			<point x="224" y="340" type="line"/>
 			<point x="384" y="340"/>
 			<point x="452" y="276"/>
@@ -64,7 +64,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -12 28</string>
@@ -77,7 +77,20 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0004</string>
+						<string>hintRef0001</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -12 28</string>
+							<string>hstem 340 12</string>
+							<string>hstem 660 28</string>
+							<string>vstem 70 34</string>
+							<string>vstem 192 72</string>
+							<string>vstem 452 36</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -12 28</string>
@@ -90,7 +103,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0014</string>
+						<string>hintRef0003</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -12 28</string>

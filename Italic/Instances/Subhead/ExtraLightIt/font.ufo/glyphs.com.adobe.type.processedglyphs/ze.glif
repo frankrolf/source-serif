@@ -4,14 +4,14 @@
 	<advance width="385"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="156" y="-13" type="curve"/>
+			<point name="hintRef0000" x="156" y="-13" type="curve"/>
 			<point x="267" y="-13"/>
 			<point x="329" y="56"/>
 			<point x="329" y="130" type="curve"/>
-			<point name="hintSet0002" x="329" y="191"/>
+			<point x="329" y="191"/>
 			<point x="295" y="234"/>
 			<point x="227" y="244" type="curve"/>
-			<point name="hintSet0003" x="311" y="261"/>
+			<point name="hintRef0001" x="311" y="261"/>
 			<point x="366" y="312"/>
 			<point x="366" y="381" type="curve"/>
 			<point x="366" y="437"/>
@@ -33,7 +33,7 @@
 			<point x="148" y="254" type="line"/>
 			<point x="144" y="236" type="line"/>
 			<point x="180" y="236" type="line"/>
-			<point name="hintSet0013" x="262" y="236"/>
+			<point name="hintRef0002" x="262" y="236"/>
 			<point x="301" y="198"/>
 			<point x="301" y="128" type="curve"/>
 			<point x="301" y="54"/>
@@ -61,7 +61,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -13 18</string>
@@ -72,30 +72,18 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0002</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -13 18</string>
-							<string>hstem 236 8</string>
-							<string>hstem 457 19</string>
-							<string>vstem 301 28</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0003</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -13 18</string>
 							<string>hstem 236 18</string>
 							<string>hstem 457 19</string>
-							<string>vstem 301 28</string>
 							<string>vstem 342 24</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0013</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -13 18</string>

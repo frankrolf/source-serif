@@ -2,7 +2,7 @@
 <glyph name="brevecmb.cyrcap" format="2">
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="93" y="720" type="curve"/>
+			<point name="hintRef0000" x="93" y="720" type="curve"/>
 			<point x="182" y="720"/>
 			<point x="242" y="771"/>
 			<point x="273" y="858" type="curve"/>
@@ -13,13 +13,13 @@
 			<point x="81" y="778"/>
 			<point x="66" y="781"/>
 			<point x="52" y="786" type="curve"/>
-			<point x="62" y="798"/>
+			<point name="hintRef0001" x="62" y="798"/>
 			<point x="68" y="813"/>
 			<point x="68" y="829" type="curve"/>
 			<point x="68" y="860"/>
 			<point x="46" y="878"/>
 			<point x="19" y="878" type="curve"/>
-			<point x="-14" y="878"/>
+			<point name="hintRef0002" x="-14" y="878"/>
 			<point x="-35" y="856"/>
 			<point x="-43" y="826" type="curve"/>
 			<point x="-39" y="762"/>
@@ -34,11 +34,29 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 720 58</string>
+							<string>vstem -43 316</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 720 58</string>
 							<string>vstem -43 111</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0002</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 720 58</string>
+							<string>vstem -43 316</string>
 						</array>
 					</dict>
 				</array>

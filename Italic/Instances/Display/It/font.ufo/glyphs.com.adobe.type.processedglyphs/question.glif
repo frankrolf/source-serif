@@ -4,7 +4,7 @@
 	<advance width="409"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="109" y="192" type="curve"/>
+			<point name="hintRef0000" x="109" y="192" type="curve"/>
 			<point x="131" y="188" type="line"/>
 			<point x="141" y="259"/>
 			<point x="150" y="286"/>
@@ -44,17 +44,17 @@
 			<point x="114" y="283"/>
 		</contour>
 		<contour>
-			<point name="hintSet0015" x="51" y="40" type="curve"/>
-			<point x="51" y="13"/>
+			<point x="51" y="40" type="curve"/>
+			<point name="hintRef0001" x="51" y="13"/>
 			<point x="71" y="-8"/>
 			<point x="99" y="-8" type="curve"/>
 			<point x="132" y="-8"/>
 			<point x="157" y="16"/>
 			<point x="157" y="50" type="curve"/>
-			<point name="hintSet0018" x="157" y="75"/>
+			<point name="hintRef0002" x="157" y="75"/>
 			<point x="138" y="98"/>
 			<point x="111" y="98" type="curve"/>
-			<point name="hintSet0019" x="78" y="98"/>
+			<point x="78" y="98"/>
 			<point x="51" y="73"/>
 		</contour>
 	</outline>
@@ -66,7 +66,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 13 -21</string>
@@ -77,7 +77,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0015</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 13 -21</string>
@@ -88,21 +88,10 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0018</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -8 106</string>
-							<string>hstem 665 21</string>
-							<string>vstem 51 106</string>
-							<string>vstem 373 62</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0019</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 13 -21</string>
 							<string>hstem 665 21</string>
 							<string>vstem 51 106</string>
 							<string>vstem 373 62</string>

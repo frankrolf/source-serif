@@ -2,7 +2,7 @@
 <glyph name="circumflexhoi.cap" format="2">
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="-147" y="692" type="line"/>
+			<point name="hintRef0000" x="-147" y="692" type="line"/>
 			<point x="0" y="774" type="line"/>
 			<point x="147" y="692" type="line"/>
 			<point x="184" y="733" type="line"/>
@@ -16,14 +16,14 @@
 			<point x="224" y="807"/>
 			<point x="270" y="834"/>
 			<point x="270" y="898" type="curve"/>
-			<point name="hintSet0010" x="270" y="961"/>
+			<point x="270" y="961"/>
 			<point x="220" y="995"/>
 			<point x="127" y="1003" type="curve"/>
-			<point x="116" y="905" type="line"/>
+			<point name="hintRef0001" x="116" y="905" type="line"/>
 			<point x="169" y="903"/>
 			<point x="183" y="892"/>
 			<point x="183" y="875" type="curve"/>
-			<point name="hintSet0013" x="183" y="858"/>
+			<point x="183" y="858"/>
 			<point x="169" y="852"/>
 		</contour>
 	</outline>
@@ -35,7 +35,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 692 311</string>
@@ -44,19 +44,10 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0010</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 905 98</string>
-							<string>vstem 183 87</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0013</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 692 311</string>
 							<string>vstem 183 87</string>
 						</array>
 					</dict>

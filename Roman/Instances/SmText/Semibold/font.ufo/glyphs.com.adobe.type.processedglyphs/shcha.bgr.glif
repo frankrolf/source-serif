@@ -3,12 +3,12 @@
 	<advance width="915"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="691" y="-9" type="line"/>
-			<point name="hintSet0001" x="798" y="-3" type="line"/>
-			<point x="822" y="-154" type="line"/>
+			<point name="hintRef0000" x="691" y="-9" type="line"/>
+			<point x="798" y="-3" type="line"/>
+			<point name="hintRef0001" x="822" y="-154" type="line"/>
 			<point x="883" y="-154" type="line"/>
-			<point x="887" y="42" type="line"/>
-			<point name="hintSet0005" x="798" y="61" type="line"/>
+			<point name="hintRef0002" x="887" y="42" type="line"/>
+			<point name="hintRef0003" x="798" y="61" type="line"/>
 			<point x="798" y="358" type="line"/>
 			<point x="800" y="488" type="line"/>
 			<point x="772" y="495" type="line"/>
@@ -67,18 +67,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -14 90</string>
-							<string>vstem 92 120</string>
-							<string>vstem 385 119</string>
-							<string>vstem 678.5 119.5</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0001</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -14 90</string>
@@ -89,7 +78,29 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0005</string>
+						<string>hintRef0001</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -14 90</string>
+							<string>vstem 92 120</string>
+							<string>vstem 385 119</string>
+							<string>vstem 822 63</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0002</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -14 90</string>
+							<string>vstem 92 120</string>
+							<string>vstem 385 119</string>
+							<string>vstem 798 87</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0003</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -14 90</string>

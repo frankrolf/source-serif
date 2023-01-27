@@ -4,8 +4,8 @@
 	<advance width="367"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="228" y="-225" type="line"/>
-			<point name="hintSet0001" x="265" y="-225" type="line"/>
+			<point name="hintRef0000" x="228" y="-225" type="line"/>
+			<point name="hintRef0001" x="265" y="-225" type="line"/>
 			<point x="265" y="-106" type="line"/>
 			<point x="346" y="-106" type="line"/>
 			<point x="346" y="-77" type="line"/>
@@ -14,13 +14,13 @@
 			<point x="235" y="216" type="line"/>
 			<point x="21" y="-79" type="line"/>
 			<point x="21" y="-106" type="line"/>
-			<point name="hintSet0010" x="228" y="-106" type="line"/>
+			<point name="hintRef0002" x="228" y="-106" type="line"/>
 		</contour>
 		<contour>
 			<point x="44" y="-77" type="line"/>
 			<point x="44" y="-70" type="line"/>
-			<point name="hintSet0013" x="142" y="47" type="line"/>
-			<point x="224" y="175" type="line"/>
+			<point x="142" y="47" type="line"/>
+			<point name="hintRef0003" x="224" y="175" type="line"/>
 			<point x="229" y="175" type="line"/>
 			<point x="229" y="-77" type="line"/>
 		</contour>
@@ -33,7 +33,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -106 29</string>
@@ -42,7 +42,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0001</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -106 29</string>
@@ -53,17 +53,18 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0010</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -106 29</string>
+							<string>hstem 175 41</string>
 							<string>vstem 21 23</string>
 							<string>vstem 228 37</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0013</string>
+						<string>hintRef0003</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -106 29</string>

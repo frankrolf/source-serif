@@ -4,11 +4,11 @@
 	<advance width="1053"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="192" y="223" type="curve"/>
+			<point name="hintRef0000" x="192" y="223" type="curve"/>
 			<point x="323" y="223"/>
 			<point x="390" y="281"/>
 			<point x="390" y="360" type="curve"/>
-			<point name="hintSet0002" x="390" y="446"/>
+			<point x="390" y="446"/>
 			<point x="332" y="494"/>
 			<point x="230" y="494" type="curve"/>
 			<point x="187" y="494"/>
@@ -40,7 +40,7 @@
 			<point x="59" y="370"/>
 			<point x="42" y="354"/>
 			<point x="36" y="333" type="curve"/>
-			<point name="hintSet0018" x="47" y="257"/>
+			<point x="47" y="257"/>
 			<point x="100" y="223"/>
 		</contour>
 		<contour>
@@ -50,8 +50,8 @@
 			<point x="263" y="6" type="line"/>
 		</contour>
 		<contour>
-			<point name="hintSet0023" x="786" y="341" type="curve"/>
-			<point x="786" y="371"/>
+			<point x="786" y="341" type="curve"/>
+			<point name="hintRef0001" x="786" y="371"/>
 			<point x="807" y="389"/>
 			<point x="842" y="389" type="curve"/>
 			<point x="879" y="389"/>
@@ -64,15 +64,15 @@
 			<point x="786" y="307"/>
 		</contour>
 		<contour>
-			<point name="hintSet0028" x="831" y="-10" type="curve"/>
-			<point x="965" y="-10"/>
+			<point x="831" y="-10" type="curve"/>
+			<point name="hintRef0002" x="965" y="-10"/>
 			<point x="1032" y="41"/>
 			<point x="1032" y="115" type="curve"/>
 			<point x="1032" y="182"/>
 			<point x="978" y="221"/>
 			<point x="898" y="254" type="curve"/>
 			<point x="906" y="267" type="line"/>
-			<point name="hintSet0032" x="969" y="273"/>
+			<point name="hintRef0003" x="969" y="273"/>
 			<point x="1011" y="291"/>
 			<point x="1011" y="343" type="curve"/>
 			<point x="1011" y="396"/>
@@ -85,7 +85,7 @@
 			<point x="716" y="218"/>
 			<point x="778" y="191" type="curve"/>
 			<point x="769" y="178" type="line"/>
-			<point name="hintSet0037" x="688" y="172"/>
+			<point name="hintRef0004" x="688" y="172"/>
 			<point x="651" y="140"/>
 			<point x="651" y="91" type="curve"/>
 			<point x="651" y="33"/>
@@ -114,22 +114,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -10 47</string>
-							<string>hstem 223 43</string>
-							<string>hstem 389 46</string>
-							<string>hstem 564 94</string>
-							<string>vstem 81.5 46.5</string>
-							<string>vstem 259 131</string>
-							<string>vstem 651 114</string>
-							<string>vstem 911 121</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0002</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 47</string>
@@ -144,22 +129,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0018</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -10 47</string>
-							<string>hstem 223 43</string>
-							<string>hstem 389 46</string>
-							<string>hstem 564 94</string>
-							<string>vstem 81.5 46.5</string>
-							<string>vstem 259 131</string>
-							<string>vstem 651 114</string>
-							<string>vstem 911 121</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0023</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 47</string>
@@ -174,7 +144,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0028</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 47</string>
@@ -189,7 +159,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0032</string>
+						<string>hintRef0003</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 47</string>
@@ -204,7 +174,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0037</string>
+						<string>hintRef0004</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 47</string>

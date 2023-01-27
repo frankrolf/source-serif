@@ -4,7 +4,7 @@
 	<advance width="888"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="-69" y="-246" type="curve"/>
+			<point name="hintRef0000" x="-69" y="-246" type="curve"/>
 			<point x="-24" y="-246"/>
 			<point x="13" y="-224"/>
 			<point x="51" y="-186" type="curve"/>
@@ -40,11 +40,11 @@
 			<point x="393" y="-140"/>
 			<point x="420" y="-70"/>
 			<point x="440" y="43" type="curve"/>
-			<point x="464" y="169"/>
+			<point name="hintRef0001" x="464" y="169"/>
 			<point x="484" y="308"/>
 			<point x="506" y="435" type="curve"/>
 			<point x="636" y="431" type="line"/>
-			<point x="645" y="486" type="line"/>
+			<point name="hintRef0002" x="645" y="486" type="line"/>
 			<point x="515" y="486" type="line"/>
 			<point x="543" y="639"/>
 			<point x="599" y="689"/>
@@ -79,13 +79,13 @@
 			<point x="739" y="94"/>
 			<point x="742" y="115"/>
 			<point x="749" y="146" type="curve"/>
-			<point name="hintSet0031" x="867" y="731" type="line"/>
-			<point name="hintSet0032" x="846" y="740" type="line"/>
-			<point name="hintSet0033" x="779" y="717" type="line"/>
+			<point name="hintRef0003" x="867" y="731" type="line"/>
+			<point name="hintRef0004" x="846" y="740" type="line"/>
+			<point x="779" y="717" type="line"/>
 			<point x="779" y="714"/>
 			<point x="778" y="711"/>
 			<point x="778" y="709" type="curve"/>
-			<point x="757" y="730"/>
+			<point name="hintRef0005" x="757" y="730"/>
 			<point x="722" y="747"/>
 			<point x="678" y="747" type="curve"/>
 			<point x="574" y="747"/>
@@ -106,11 +106,11 @@
 			<point x="494" y="711"/>
 			<point x="448" y="747"/>
 			<point x="384" y="747" type="curve"/>
-			<point name="hintSet0044" x="280" y="747"/>
+			<point name="hintRef0006" x="280" y="747"/>
 			<point x="172" y="663"/>
 			<point x="142" y="488" type="curve"/>
 			<point x="41" y="477" type="line"/>
-			<point name="hintSet0046" x="33" y="435" type="line"/>
+			<point name="hintRef0007" x="33" y="435" type="line"/>
 			<point x="133" y="435" type="line"/>
 			<point x="111" y="302"/>
 			<point x="93" y="174"/>
@@ -140,7 +140,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -246 100</string>
@@ -152,7 +152,31 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0031</string>
+						<string>hintRef0001</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -246 100</string>
+							<string>hstem -13 69</string>
+							<string>hstem 433 53</string>
+							<string>hstem 713 34</string>
+							<string>vstem 655 84</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0002</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -246 100</string>
+							<string>hstem -13 69</string>
+							<string>hstem 435 51</string>
+							<string>hstem 713 34</string>
+							<string>vstem 655 84</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0003</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -246 100</string>
@@ -164,7 +188,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0032</string>
+						<string>hintRef0004</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -246 100</string>
@@ -176,7 +200,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0033</string>
+						<string>hintRef0005</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -246 100</string>
@@ -188,7 +212,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0044</string>
+						<string>hintRef0006</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -246 100</string>
@@ -200,7 +224,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0046</string>
+						<string>hintRef0007</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -246 100</string>

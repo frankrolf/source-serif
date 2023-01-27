@@ -3,15 +3,15 @@
 	<advance width="501"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="231" y="-10" type="curve"/>
+			<point name="hintRef0000" x="231" y="-10" type="curve"/>
 			<point x="357" y="-10"/>
 			<point x="434" y="56"/>
 			<point x="434" y="155" type="curve"/>
-			<point x="434" y="255"/>
+			<point name="hintRef0001" x="434" y="255"/>
 			<point x="357" y="295"/>
 			<point x="238" y="299" type="curve"/>
 			<point x="238" y="303" type="line"/>
-			<point name="hintSet0004" x="350" y="307"/>
+			<point name="hintRef0002" x="350" y="307"/>
 			<point x="417" y="360"/>
 			<point x="417" y="445" type="curve"/>
 			<point x="417" y="529"/>
@@ -33,7 +33,7 @@
 			<point x="334" y="315"/>
 			<point x="203" y="315" type="curve"/>
 			<point x="175" y="315" type="line"/>
-			<point name="hintSet0014" x="175" y="287" type="line"/>
+			<point name="hintRef0003" x="175" y="287" type="line"/>
 			<point x="203" y="287" type="line"/>
 			<point x="341" y="287"/>
 			<point x="400" y="234"/>
@@ -63,7 +63,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 27</string>
@@ -76,7 +76,20 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0004</string>
+						<string>hintRef0001</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -10 27</string>
+							<string>hstem 287 12</string>
+							<string>hstem 556 27</string>
+							<string>vstem 69 30.5</string>
+							<string>vstem 175 63</string>
+							<string>vstem 400 34</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 27</string>
@@ -89,7 +102,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0014</string>
+						<string>hintRef0003</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 27</string>

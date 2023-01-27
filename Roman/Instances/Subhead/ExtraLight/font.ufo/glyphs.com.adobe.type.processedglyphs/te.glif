@@ -4,9 +4,9 @@
 	<advance width="502"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="34" y="319" type="line"/>
+			<point name="hintRef0000" x="34" y="319" type="line"/>
 			<point x="52" y="319" type="line"/>
-			<point name="hintSet0002" x="72" y="444" type="line"/>
+			<point name="hintRef0001" x="72" y="444" type="line"/>
 			<point x="236" y="444" type="line"/>
 			<point x="237" y="394"/>
 			<point x="238" y="309"/>
@@ -28,9 +28,9 @@
 			<point x="266" y="394"/>
 			<point x="267" y="444" type="curve"/>
 			<point x="430" y="444" type="line"/>
-			<point name="hintSet0016" x="450" y="319" type="line"/>
+			<point name="hintRef0002" x="450" y="319" type="line"/>
 			<point x="468" y="319" type="line"/>
-			<point name="hintSet0018" x="460" y="463" type="line"/>
+			<point name="hintRef0003" x="460" y="463" type="line"/>
 			<point x="43" y="463" type="line"/>
 		</contour>
 	</outline>
@@ -42,7 +42,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 0 19.5</string>
@@ -52,32 +52,35 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0002</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 0 19.5</string>
 							<string>hstem 444 19</string>
 							<string>vstem 238 26</string>
+							<string>vstem 430 34</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0016</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 0 19.5</string>
 							<string>hstem 319 144</string>
 							<string>vstem 238 26</string>
+							<string>vstem 430 34</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0018</string>
+						<string>hintRef0003</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 0 19.5</string>
 							<string>hstem 444 19</string>
 							<string>vstem 238 26</string>
+							<string>vstem 430 34</string>
 						</array>
 					</dict>
 				</array>

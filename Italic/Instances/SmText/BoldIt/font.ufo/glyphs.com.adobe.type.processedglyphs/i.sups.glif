@@ -4,15 +4,15 @@
 	<advance width="233"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="103" y="459" type="curve"/>
+			<point name="hintRef0000" x="103" y="459" type="curve"/>
 			<point x="103" y="427"/>
 			<point x="123" y="408"/>
 			<point x="164" y="408" type="curve"/>
-			<point name="hintSet0002" x="222" y="408"/>
+			<point name="hintRef0001" x="222" y="408"/>
 			<point x="263" y="447"/>
 			<point x="292" y="495" type="curve"/>
-			<point name="hintSet0003" x="268" y="511" type="line"/>
-			<point x="247" y="483"/>
+			<point x="268" y="511" type="line"/>
+			<point name="hintRef0002" x="247" y="483"/>
 			<point x="235" y="471"/>
 			<point x="223" y="471" type="curve"/>
 			<point x="207" y="471"/>
@@ -28,8 +28,8 @@
 			<point x="103" y="480"/>
 		</contour>
 		<contour>
-			<point name="hintSet0013" x="231" y="805" type="curve"/>
-			<point x="265" y="805"/>
+			<point x="231" y="805" type="curve"/>
+			<point name="hintRef0003" x="265" y="805"/>
 			<point x="292" y="832"/>
 			<point x="292" y="864" type="curve"/>
 			<point x="292" y="893"/>
@@ -50,7 +50,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 408 63</string>
@@ -60,17 +60,17 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0002</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 495 -20</string>
 							<string>hstem 805 108</string>
-							<string>vstem 103 107</string>
+							<string>vstem 179 113</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0003</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 408 63</string>
@@ -80,7 +80,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0013</string>
+						<string>hintRef0003</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 495 -20</string>

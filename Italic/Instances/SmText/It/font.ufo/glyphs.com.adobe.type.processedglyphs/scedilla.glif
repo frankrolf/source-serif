@@ -4,7 +4,7 @@
 	<advance width="375"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="102" y="-86" type="line"/>
+			<point name="hintRef0000" x="102" y="-86" type="line"/>
 			<point x="155" y="-98"/>
 			<point x="178" y="-114"/>
 			<point x="178" y="-149" type="curve"/>
@@ -25,7 +25,7 @@
 			<point x="207" y="-85"/>
 			<point x="146" y="-66" type="curve"/>
 			<point x="169" y="-12" type="line"/>
-			<point name="hintSet0009" x="264" y="-6"/>
+			<point name="hintRef0001" x="264" y="-6"/>
 			<point x="328" y="52"/>
 			<point x="328" y="132" type="curve"/>
 			<point x="328" y="194"/>
@@ -72,7 +72,7 @@
 			<point x="40" y="119"/>
 			<point x="25" y="107"/>
 			<point x="19" y="89" type="curve"/>
-			<point name="hintSet0026" x="27" y="30"/>
+			<point x="27" y="30"/>
 			<point x="63" y="-8"/>
 			<point x="137" y="-13" type="curve"/>
 		</contour>
@@ -85,39 +85,24 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -232 35</string>
 							<string>hstem -13 40</string>
 							<string>hstem 460 39</string>
-							<string>vstem 89 76</string>
 							<string>vstem 178 61</string>
-							<string>vstem 250 78</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0009</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -232 35</string>
 							<string>hstem -13 40</string>
 							<string>hstem 460 39</string>
 							<string>vstem 89 76</string>
-							<string>vstem 250 78</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0026</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -232 35</string>
-							<string>hstem -13 40</string>
-							<string>hstem 460 39</string>
-							<string>vstem 89 76</string>
-							<string>vstem 178 61</string>
 							<string>vstem 250 78</string>
 						</array>
 					</dict>

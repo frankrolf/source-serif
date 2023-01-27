@@ -3,14 +3,14 @@
 	<advance width="480"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="240" y="-12" type="curve"/>
+			<point name="hintRef0000" x="240" y="-12" type="curve"/>
 			<point x="334" y="-12"/>
 			<point x="432" y="65"/>
 			<point x="432" y="224" type="curve"/>
 			<point x="432" y="377"/>
 			<point x="336" y="428"/>
 			<point x="249" y="473" type="curve"/>
-			<point name="hintSet0003" x="177" y="510"/>
+			<point x="177" y="510"/>
 			<point x="104" y="540"/>
 			<point x="104" y="596" type="curve"/>
 			<point x="104" y="619"/>
@@ -19,7 +19,7 @@
 			<point x="181" y="673"/>
 			<point x="259" y="690"/>
 			<point x="393" y="718" type="curve"/>
-			<point x="407" y="721"/>
+			<point name="hintRef0001" x="407" y="721"/>
 			<point x="408" y="746"/>
 			<point x="413" y="776" type="curve"/>
 			<point x="405" y="777" type="line"/>
@@ -33,7 +33,7 @@
 			<point x="87" y="538"/>
 			<point x="152" y="507"/>
 			<point x="224" y="470" type="curve"/>
-			<point name="hintSet0012" x="93" y="402"/>
+			<point name="hintRef0002" x="93" y="402"/>
 			<point x="48" y="316"/>
 			<point x="48" y="212" type="curve"/>
 			<point x="48" y="58"/>
@@ -65,28 +65,27 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -12 13</string>
-							<string>vstem 48 26</string>
+							<string>vstem 87 17</string>
 							<string>vstem 406 26</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0003</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -12 13</string>
-							<string>vstem 48 26</string>
 							<string>vstem 87 17</string>
 							<string>vstem 405 8</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0012</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -12 13</string>

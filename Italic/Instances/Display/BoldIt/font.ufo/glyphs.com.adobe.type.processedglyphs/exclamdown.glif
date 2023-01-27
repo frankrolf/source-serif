@@ -4,7 +4,7 @@
 	<advance width="263"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="146" y="246" type="line"/>
+			<point name="hintRef0000" x="146" y="246" type="line"/>
 			<point x="114" y="246" type="line"/>
 			<point x="38" y="47"/>
 			<point x="-15" y="-96"/>
@@ -20,17 +20,17 @@
 			<point x="146" y="146" type="curve"/>
 		</contour>
 		<contour>
-			<point name="hintSet0006" x="224" y="408" type="curve"/>
-			<point x="224" y="442"/>
+			<point x="224" y="408" type="curve"/>
+			<point name="hintRef0001" x="224" y="442"/>
 			<point x="199" y="473"/>
 			<point x="160" y="473" type="curve"/>
 			<point x="118" y="473"/>
 			<point x="80" y="439"/>
 			<point x="80" y="395" type="curve"/>
-			<point name="hintSet0009" x="80" y="360"/>
+			<point name="hintRef0002" x="80" y="360"/>
 			<point x="105" y="329"/>
 			<point x="144" y="329" type="curve"/>
-			<point name="hintSet0010" x="186" y="329"/>
+			<point x="186" y="329"/>
 			<point x="224" y="364"/>
 		</contour>
 	</outline>
@@ -42,16 +42,16 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
-							<string>hstem 473 -20</string>
+							<string>hstem 329 144</string>
 							<string>vstem 114 32</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0006</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 473 -20</string>
@@ -60,19 +60,10 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0009</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 329 144</string>
-							<string>vstem 80 144</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0010</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 473 -20</string>
 							<string>vstem 80 144</string>
 						</array>
 					</dict>

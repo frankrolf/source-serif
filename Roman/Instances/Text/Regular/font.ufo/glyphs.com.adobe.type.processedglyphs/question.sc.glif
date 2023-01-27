@@ -3,7 +3,7 @@
 	<advance width="430"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="142" y="186" type="line"/>
+			<point name="hintRef0000" x="142" y="186" type="line"/>
 			<point x="179" y="186" type="line"/>
 			<point x="180" y="224" type="line"/>
 			<point x="180" y="250"/>
@@ -38,17 +38,17 @@
 			<point x="130" y="222" type="curve"/>
 		</contour>
 		<contour>
-			<point name="hintSet0015" x="161" y="-12" type="curve"/>
-			<point x="194" y="-12"/>
+			<point x="161" y="-12" type="curve"/>
+			<point name="hintRef0001" x="194" y="-12"/>
 			<point x="222" y="16"/>
 			<point x="222" y="51" type="curve"/>
-			<point name="hintSet0017" x="222" y="84"/>
+			<point name="hintRef0002" x="222" y="84"/>
 			<point x="194" y="115"/>
 			<point x="161" y="115" type="curve"/>
 			<point x="127" y="115"/>
 			<point x="99" y="84"/>
 			<point x="99" y="51" type="curve"/>
-			<point name="hintSet0019" x="99" y="16"/>
+			<point x="99" y="16"/>
 			<point x="127" y="-12"/>
 		</contour>
 	</outline>
@@ -60,7 +60,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 9 -21</string>
@@ -71,7 +71,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0015</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 9 -21</string>
@@ -82,21 +82,10 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0017</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -12 127</string>
-							<string>hstem 561 -20</string>
-							<string>vstem 99 123</string>
-							<string>vstem 285 53</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0019</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 9 -21</string>
 							<string>hstem 561 -20</string>
 							<string>vstem 99 123</string>
 							<string>vstem 285 53</string>

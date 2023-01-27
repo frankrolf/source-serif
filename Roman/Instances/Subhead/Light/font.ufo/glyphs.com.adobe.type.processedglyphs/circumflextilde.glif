@@ -2,7 +2,7 @@
 <glyph name="circumflextilde" format="2">
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="-116" y="538" type="line"/>
+			<point name="hintRef0000" x="-116" y="538" type="line"/>
 			<point x="0" y="619" type="line"/>
 			<point x="116" y="538" type="line"/>
 			<point x="127" y="552" type="line"/>
@@ -11,7 +11,7 @@
 			<point x="-127" y="552" type="line"/>
 		</contour>
 		<contour>
-			<point name="hintSet0007" x="-148" y="688" type="curve"/>
+			<point x="-148" y="688" type="curve"/>
 			<point x="-132" y="683" type="line"/>
 			<point x="-120" y="714"/>
 			<point x="-101" y="732"/>
@@ -19,7 +19,7 @@
 			<point x="-43" y="732"/>
 			<point x="-27" y="721"/>
 			<point x="-7" y="708" type="curve"/>
-			<point name="hintSet0011" x="12" y="695"/>
+			<point name="hintRef0001" x="12" y="695"/>
 			<point x="32" y="684"/>
 			<point x="64" y="684" type="curve"/>
 			<point x="111" y="684"/>
@@ -32,7 +32,7 @@
 			<point x="43" y="717"/>
 			<point x="27" y="728"/>
 			<point x="7" y="741" type="curve"/>
-			<point name="hintSet0016" x="-12" y="753"/>
+			<point name="hintRef0002" x="-12" y="753"/>
 			<point x="-33" y="765"/>
 			<point x="-64" y="765" type="curve"/>
 			<point x="-110" y="765"/>
@@ -47,26 +47,16 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
-							<string>hstem 684 33</string>
-							<string>vstem -148 296</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0007</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 684 33</string>
 							<string>hstem 732 33</string>
 							<string>vstem -148 296</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0011</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 684 33</string>
@@ -75,10 +65,9 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0016</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
-							<string>hstem 684 33</string>
 							<string>hstem 732 33</string>
 							<string>vstem -148 296</string>
 						</array>

@@ -3,7 +3,7 @@
 	<advance width="290"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="195" y="444" type="line"/>
+			<point name="hintRef0000" x="195" y="444" type="line"/>
 			<point x="154" y="444" type="line"/>
 			<point x="39" y="186"/>
 			<point x="7" y="103"/>
@@ -19,17 +19,17 @@
 			<point x="194" y="321" type="curve"/>
 		</contour>
 		<contour>
-			<point name="hintSet0006" x="278" y="605" type="curve"/>
-			<point x="278" y="642"/>
+			<point x="278" y="605" type="curve"/>
+			<point name="hintRef0001" x="278" y="642"/>
 			<point x="249" y="675"/>
 			<point x="207" y="675" type="curve"/>
 			<point x="161" y="675"/>
 			<point x="120" y="638"/>
 			<point x="120" y="590" type="curve"/>
-			<point name="hintSet0009" x="120" y="552"/>
+			<point name="hintRef0002" x="120" y="552"/>
 			<point x="149" y="519"/>
 			<point x="192" y="519" type="curve"/>
-			<point name="hintSet0010" x="237" y="519"/>
+			<point x="237" y="519"/>
 			<point x="278" y="557"/>
 		</contour>
 	</outline>
@@ -41,7 +41,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 7 -21</string>
@@ -51,7 +51,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0006</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 7 -21</string>
@@ -61,21 +61,11 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0009</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 7 -21</string>
 							<string>hstem 519 156</string>
-							<string>vstem 120 158</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0010</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 7 -21</string>
-							<string>hstem 675 -20</string>
 							<string>vstem 120 158</string>
 						</array>
 					</dict>

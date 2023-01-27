@@ -4,7 +4,7 @@
 	<advance width="444"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="216" y="568" type="line"/>
+			<point name="hintRef0000" x="216" y="568" type="line"/>
 			<point x="228" y="568" type="line"/>
 			<point x="234" y="620" type="line"/>
 			<point x="241" y="680"/>
@@ -27,7 +27,7 @@
 			<point x="99" y="604"/>
 			<point x="70" y="619"/>
 			<point x="51" y="625" type="curve"/>
-			<point x="32" y="631"/>
+			<point name="hintRef0001" x="32" y="631"/>
 			<point x="21" y="624"/>
 			<point x="17" y="611" type="curve"/>
 			<point x="12" y="597"/>
@@ -47,7 +47,7 @@
 			<point x="80" y="390"/>
 			<point x="84" y="377"/>
 			<point x="95" y="369" type="curve"/>
-			<point x="106" y="361"/>
+			<point name="hintRef0002" x="106" y="361"/>
 			<point x="119" y="362"/>
 			<point x="131" y="378" type="curve"/>
 			<point x="143" y="394"/>
@@ -75,7 +75,7 @@
 			<point x="243" y="557" type="line"/>
 			<point x="247" y="546" type="line"/>
 			<point x="298" y="556" type="line"/>
-			<point x="357" y="568"/>
+			<point name="hintRef0003" x="357" y="568"/>
 			<point x="389" y="573"/>
 			<point x="408" y="579" type="curve"/>
 			<point x="427" y="585"/>
@@ -97,10 +97,37 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
-							<string>hstem 364 396</string>
+							<string>hstem 364.1023 395.8977</string>
+							<string>vstem 213 18</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0001</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 579 49</string>
+							<string>vstem 213 18</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0002</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 364.1023 395.8977</string>
+							<string>vstem 213 18</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0003</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 579 49</string>
 							<string>vstem 213 18</string>
 						</array>
 					</dict>

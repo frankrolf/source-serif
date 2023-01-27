@@ -4,9 +4,9 @@
 	<advance width="485"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="150" y="-2" type="curve"/>
+			<point name="hintRef0000" x="150" y="-2" type="curve"/>
 			<point x="158" y="-9" type="line"/>
-			<point name="hintSet0002" x="212" y="-2" type="line"/>
+			<point x="212" y="-2" type="line"/>
 			<point x="302" y="89"/>
 			<point x="384" y="201"/>
 			<point x="438" y="297" type="curve"/>
@@ -38,14 +38,14 @@
 			<point x="107" y="485"/>
 			<point x="73" y="465"/>
 			<point x="23" y="415" type="curve"/>
-			<point name="hintSet0014" x="36" y="390" type="line"/>
-			<point x="58" y="398"/>
+			<point x="36" y="390" type="line"/>
+			<point name="hintRef0001" x="58" y="398"/>
 			<point x="72" y="404"/>
 			<point x="88" y="404" type="curve"/>
 			<point x="109" y="404"/>
 			<point x="118" y="394"/>
 			<point x="123" y="353" type="curve"/>
-			<point name="hintSet0017" x="138" y="242"/>
+			<point x="138" y="242"/>
 			<point x="146" y="133"/>
 		</contour>
 	</outline>
@@ -57,17 +57,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 19 -21</string>
-							<string>hstem 485 -20</string>
-							<string>vstem 375 113</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0002</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 12 -21</string>
@@ -77,21 +67,11 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0014</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 19 -21</string>
 							<string>hstem 404 81</string>
-							<string>vstem 375 113</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0017</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 19 -21</string>
-							<string>hstem 485 -20</string>
 							<string>vstem 375 113</string>
 						</array>
 					</dict>

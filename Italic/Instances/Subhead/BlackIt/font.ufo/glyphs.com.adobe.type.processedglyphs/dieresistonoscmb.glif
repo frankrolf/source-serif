@@ -2,7 +2,7 @@
 <glyph name="dieresistonoscmb" format="2">
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="-52" y="588" type="curve"/>
+			<point name="hintRef0000" x="-52" y="588" type="curve"/>
 			<point x="-16" y="588"/>
 			<point x="16" y="617"/>
 			<point x="16" y="667" type="curve"/>
@@ -16,11 +16,11 @@
 			<point x="-83" y="588"/>
 		</contour>
 		<contour>
-			<point name="hintSet0005" x="75" y="537" type="line"/>
+			<point x="75" y="537" type="line"/>
 			<point x="97" y="573"/>
 			<point x="119" y="608"/>
 			<point x="141" y="643" type="curve"/>
-			<point x="162" y="676"/>
+			<point name="hintRef0001" x="162" y="676"/>
 			<point x="172" y="700"/>
 			<point x="172" y="723" type="curve"/>
 			<point x="172" y="759"/>
@@ -34,8 +34,8 @@
 			<point x="41" y="547" type="curve"/>
 		</contour>
 		<contour>
-			<point name="hintSet0011" x="243" y="588" type="curve"/>
-			<point x="275" y="588"/>
+			<point x="243" y="588" type="curve"/>
+			<point name="hintRef0002" x="275" y="588"/>
 			<point x="312" y="617"/>
 			<point x="312" y="667" type="curve"/>
 			<point x="312" y="703"/>
@@ -57,7 +57,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 588 137</string>
@@ -67,21 +67,19 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0005</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
-							<string>hstem 537 247</string>
-							<string>vstem -108 124</string>
+							<string>hstem 588 137</string>
 							<string>vstem 45 127</string>
-							<string>vstem 187 125</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0011</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
-							<string>hstem 537 247</string>
+							<string>hstem 588 137</string>
 							<string>vstem -108 124</string>
 							<string>vstem 187 125</string>
 						</array>

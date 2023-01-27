@@ -3,7 +3,7 @@
 	<advance width="316"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="235" y="432" type="line"/>
+			<point name="hintRef0000" x="235" y="432" type="line"/>
 			<point x="167" y="432" type="line"/>
 			<point x="44" y="188"/>
 			<point x="26" y="124"/>
@@ -19,17 +19,17 @@
 			<point x="240" y="312" type="curve"/>
 		</contour>
 		<contour>
-			<point name="hintSet0006" x="321" y="590" type="curve"/>
-			<point x="321" y="636"/>
+			<point x="321" y="590" type="curve"/>
+			<point name="hintRef0001" x="321" y="636"/>
 			<point x="289" y="668"/>
 			<point x="237" y="668" type="curve"/>
 			<point x="177" y="668"/>
 			<point x="133" y="624"/>
 			<point x="133" y="562" type="curve"/>
-			<point name="hintSet0009" x="133" y="516"/>
+			<point name="hintRef0002" x="133" y="516"/>
 			<point x="165" y="484"/>
 			<point x="217" y="484" type="curve"/>
-			<point name="hintSet0010" x="277" y="484"/>
+			<point x="277" y="484"/>
 			<point x="321" y="528"/>
 		</contour>
 	</outline>
@@ -41,7 +41,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 9 -21</string>
@@ -51,7 +51,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0006</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 9 -21</string>
@@ -61,21 +61,11 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0009</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 9 -21</string>
 							<string>hstem 484 184</string>
-							<string>vstem 133 188</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0010</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 9 -21</string>
-							<string>hstem 668 -20</string>
 							<string>vstem 133 188</string>
 						</array>
 					</dict>

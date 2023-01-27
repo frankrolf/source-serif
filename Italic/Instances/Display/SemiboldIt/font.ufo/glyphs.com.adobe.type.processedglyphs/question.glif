@@ -4,7 +4,7 @@
 	<advance width="423"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="111" y="196" type="curve"/>
+			<point name="hintRef0000" x="111" y="196" type="curve"/>
 			<point x="137" y="191" type="line"/>
 			<point x="145" y="247"/>
 			<point x="153" y="272"/>
@@ -44,17 +44,17 @@
 			<point x="111" y="283"/>
 		</contour>
 		<contour>
-			<point name="hintSet0015" x="47" y="46" type="curve"/>
-			<point x="47" y="16"/>
+			<point x="47" y="46" type="curve"/>
+			<point name="hintRef0001" x="47" y="16"/>
 			<point x="70" y="-10"/>
 			<point x="104" y="-10" type="curve"/>
 			<point x="141" y="-10"/>
 			<point x="173" y="19"/>
 			<point x="173" y="58" type="curve"/>
-			<point name="hintSet0018" x="173" y="88"/>
+			<point name="hintRef0002" x="173" y="88"/>
 			<point x="151" y="115"/>
 			<point x="118" y="115" type="curve"/>
-			<point name="hintSet0019" x="80" y="115"/>
+			<point x="80" y="115"/>
 			<point x="47" y="85"/>
 		</contour>
 	</outline>
@@ -66,7 +66,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 11 -21</string>
@@ -77,7 +77,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0015</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 11 -21</string>
@@ -88,21 +88,10 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0018</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -10 125</string>
-							<string>hstem 655 25</string>
-							<string>vstem 47 126</string>
-							<string>vstem 363 86</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0019</string>
-						<key>stems</key>
-						<array>
-							<string>hstem 11 -21</string>
 							<string>hstem 655 25</string>
 							<string>vstem 47 126</string>
 							<string>vstem 363 86</string>

@@ -3,7 +3,7 @@
 	<advance width="474"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="201" y="-80" type="line"/>
+			<point name="hintRef0000" x="201" y="-80" type="line"/>
 			<point x="260" y="-83"/>
 			<point x="284" y="-105"/>
 			<point x="284" y="-139" type="curve"/>
@@ -37,10 +37,10 @@
 			<point x="119" y="501"/>
 			<point x="176" y="535"/>
 			<point x="249" y="535" type="curve"/>
-			<point name="hintSet0014" x="285" y="535"/>
+			<point x="285" y="535"/>
 			<point x="314" y="528"/>
 			<point x="343" y="511" type="curve"/>
-			<point x="357" y="412" type="line"/>
+			<point name="hintRef0001" x="357" y="412" type="line"/>
 			<point x="386" y="412" type="line"/>
 			<point x="390" y="520" type="line"/>
 			<point x="351" y="546"/>
@@ -53,7 +53,7 @@
 			<point x="130" y="297"/>
 			<point x="214" y="265" type="curve"/>
 			<point x="246" y="252" type="line"/>
-			<point name="hintSet0022" x="331" y="220"/>
+			<point name="hintRef0002" x="331" y="220"/>
 			<point x="371" y="193"/>
 			<point x="371" y="132" type="curve"/>
 			<point x="371" y="53"/>
@@ -78,7 +78,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -217 23</string>
@@ -92,11 +92,10 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0014</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -217 23</string>
-							<string>hstem -80 21</string>
 							<string>hstem -12 26</string>
 							<string>hstem 535 26</string>
 							<string>vstem 76 43</string>
@@ -106,11 +105,10 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0022</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -217 23</string>
-							<string>hstem -80 21</string>
 							<string>hstem -12 26</string>
 							<string>hstem 535 26</string>
 							<string>vstem 62 31</string>

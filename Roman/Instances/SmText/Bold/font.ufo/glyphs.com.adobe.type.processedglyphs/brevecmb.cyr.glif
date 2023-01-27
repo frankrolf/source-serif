@@ -2,14 +2,14 @@
 <glyph name="brevecmb.cyr" format="2">
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="0" y="553" type="curve"/>
+			<point name="hintRef0000" x="0" y="553" type="curve"/>
 			<point x="127" y="553"/>
 			<point x="189" y="614"/>
 			<point x="192" y="697" type="curve"/>
 			<point x="183" y="734"/>
 			<point x="158" y="754"/>
 			<point x="122" y="754" type="curve"/>
-			<point x="84" y="754"/>
+			<point name="hintRef0001" x="84" y="754"/>
 			<point x="58" y="732"/>
 			<point x="58" y="694" type="curve"/>
 			<point x="58" y="664"/>
@@ -27,7 +27,7 @@
 			<point x="-58" y="732"/>
 			<point x="-84" y="754"/>
 			<point x="-122" y="754" type="curve"/>
-			<point x="-158" y="754"/>
+			<point name="hintRef0002" x="-158" y="754"/>
 			<point x="-183" y="734"/>
 			<point x="-192" y="697" type="curve"/>
 			<point x="-189" y="614"/>
@@ -42,12 +42,30 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 553 56</string>
+							<string>vstem -192 384</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 553 56</string>
 							<string>vstem -192 134</string>
 							<string>vstem 58 134</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0002</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 553 56</string>
+							<string>vstem -192 384</string>
 						</array>
 					</dict>
 				</array>

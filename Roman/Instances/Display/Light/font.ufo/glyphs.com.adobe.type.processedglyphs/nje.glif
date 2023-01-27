@@ -4,7 +4,7 @@
 	<advance width="719"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="436" y="204" type="curve"/>
+			<point name="hintRef0000" x="436" y="204" type="curve"/>
 			<point x="436" y="237" type="line"/>
 			<point x="463" y="242"/>
 			<point x="487" y="244"/>
@@ -22,7 +22,7 @@
 		<contour>
 			<point x="317" y="437" type="line"/>
 			<point x="393" y="430" type="line"/>
-			<point name="hintSet0009" x="395" y="383"/>
+			<point name="hintRef0001" x="395" y="383"/>
 			<point x="396" y="303"/>
 			<point x="396" y="249" type="curve"/>
 			<point x="157" y="249" type="line"/>
@@ -41,11 +41,11 @@
 			<point x="117" y="150"/>
 			<point x="116" y="68"/>
 			<point x="115" y="19" type="curve"/>
-			<point x="38" y="12" type="line"/>
+			<point name="hintRef0002" x="38" y="12" type="line"/>
 			<point x="38" y="0" type="line"/>
-			<point x="236" y="0" type="line"/>
+			<point name="hintRef0003" x="236" y="0" type="line"/>
 			<point x="236" y="12" type="line"/>
-			<point x="159" y="19" type="line"/>
+			<point name="hintRef0004" x="159" y="19" type="line"/>
 			<point x="158" y="68"/>
 			<point x="157" y="150"/>
 			<point x="157" y="204" type="curve"/>
@@ -55,13 +55,13 @@
 			<point x="396" y="150"/>
 			<point x="395" y="68"/>
 			<point x="393" y="19" type="curve"/>
-			<point x="317" y="12" type="line"/>
+			<point name="hintRef0005" x="317" y="12" type="line"/>
 			<point x="317" y="0" type="line"/>
-			<point x="502" y="0" type="line"/>
+			<point name="hintRef0006" x="502" y="0" type="line"/>
 			<point x="630" y="0"/>
 			<point x="684" y="58"/>
 			<point x="684" y="137" type="curve"/>
-			<point name="hintSet0034" x="684" y="216"/>
+			<point x="684" y="216"/>
 			<point x="629" y="261"/>
 			<point x="524" y="261" type="curve"/>
 			<point x="493" y="261"/>
@@ -83,7 +83,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 0 17</string>
@@ -96,7 +96,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0009</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 0 15.5</string>
@@ -109,10 +109,62 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0034</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 0 15.5</string>
+							<string>hstem 232 17</string>
+							<string>hstem 433.5 15.5</string>
+							<string>vstem 117 40</string>
+							<string>vstem 396 40</string>
+							<string>vstem 644 40</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0003</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 0 17</string>
+							<string>hstem 232 17</string>
+							<string>hstem 433.5 15.5</string>
+							<string>vstem 117 40</string>
+							<string>vstem 396 40</string>
+							<string>vstem 644 40</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0004</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 0 15.5</string>
+							<string>hstem 232 17</string>
+							<string>hstem 433.5 15.5</string>
+							<string>vstem 117 40</string>
+							<string>vstem 396 40</string>
+							<string>vstem 644 40</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0005</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 0 15.5</string>
+							<string>hstem 232 17</string>
+							<string>hstem 433.5 15.5</string>
+							<string>vstem 117 40</string>
+							<string>vstem 396 40</string>
+							<string>vstem 644 40</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0006</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 0 17</string>
 							<string>hstem 244 17</string>
 							<string>hstem 433.5 15.5</string>
 							<string>vstem 117 40</string>

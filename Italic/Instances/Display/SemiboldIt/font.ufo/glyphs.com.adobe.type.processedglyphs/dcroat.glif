@@ -4,7 +4,7 @@
 	<advance width="515"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="127" y="133" type="curve"/>
+			<point name="hintRef0000" x="127" y="133" type="curve"/>
 			<point x="127" y="206"/>
 			<point x="155" y="305"/>
 			<point x="212" y="364" type="curve"/>
@@ -26,8 +26,8 @@
 			<point x="411" y="-13"/>
 			<point x="458" y="45"/>
 			<point x="489" y="100" type="curve"/>
-			<point name="hintSet0009" x="475" y="110" type="line"/>
-			<point x="443" y="72"/>
+			<point x="475" y="110" type="line"/>
+			<point name="hintRef0001" x="443" y="72"/>
 			<point x="415" y="51"/>
 			<point x="395" y="51" type="curve"/>
 			<point x="386" y="51"/>
@@ -41,7 +41,7 @@
 			<point x="546" y="574" type="line"/>
 			<point x="482" y="574" type="line"/>
 			<point x="514" y="728" type="line"/>
-			<point x="503" y="737" type="line"/>
+			<point name="hintRef0002" x="503" y="737" type="line"/>
 			<point x="335" y="690" type="line"/>
 			<point x="332" y="675" type="line"/>
 			<point x="409" y="659" type="line"/>
@@ -56,7 +56,7 @@
 			<point x="186" y="455"/>
 			<point x="30" y="259"/>
 			<point x="30" y="109" type="curve"/>
-			<point name="hintSet0029" x="30" y="23"/>
+			<point x="30" y="23"/>
 			<point x="76" y="-13"/>
 			<point x="126" y="-13" type="curve"/>
 			<point x="190" y="-13"/>
@@ -78,7 +78,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -13 63</string>
@@ -86,12 +86,11 @@
 							<string>hstem 550 24</string>
 							<string>hstem 737 -20</string>
 							<string>vstem 30 97</string>
-							<string>vstem 283 97</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0009</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -13 64</string>
@@ -104,7 +103,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0029</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -13 63</string>

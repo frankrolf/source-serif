@@ -3,15 +3,15 @@
 	<advance width="483"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="208" y="-246" type="curve"/>
+			<point name="hintRef0000" x="208" y="-246" type="curve"/>
 			<point x="359" y="-246"/>
 			<point x="444" y="-158"/>
 			<point x="444" y="-36" type="curve"/>
-			<point x="444" y="87"/>
+			<point name="hintRef0001" x="444" y="87"/>
 			<point x="357" y="151"/>
 			<point x="218" y="156" type="curve"/>
 			<point x="218" y="163" type="line"/>
-			<point name="hintSet0004" x="351" y="169"/>
+			<point name="hintRef0002" x="351" y="169"/>
 			<point x="429" y="229"/>
 			<point x="429" y="338" type="curve"/>
 			<point x="429" y="446"/>
@@ -33,7 +33,7 @@
 			<point x="315" y="178"/>
 			<point x="188" y="178" type="curve"/>
 			<point x="148" y="178" type="line"/>
-			<point name="hintSet0014" x="148" y="140" type="line"/>
+			<point name="hintRef0003" x="148" y="140" type="line"/>
 			<point x="191" y="140" type="line"/>
 			<point x="324" y="140"/>
 			<point x="385" y="63"/>
@@ -63,7 +63,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -246 35</string>
@@ -76,7 +76,20 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0004</string>
+						<string>hintRef0001</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -246 35</string>
+							<string>hstem 140 16</string>
+							<string>hstem 480 35</string>
+							<string>vstem 59 47.5</string>
+							<string>vstem 148 70</string>
+							<string>vstem 385 59</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -246 35</string>
@@ -89,7 +102,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0014</string>
+						<string>hintRef0003</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -246 35</string>

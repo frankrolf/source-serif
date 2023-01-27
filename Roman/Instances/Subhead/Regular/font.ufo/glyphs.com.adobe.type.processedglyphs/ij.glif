@@ -4,7 +4,7 @@
 	<advance width="563"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="35" y="0" type="line"/>
+			<point name="hintRef0000" x="35" y="0" type="line"/>
 			<point x="260" y="0" type="line"/>
 			<point x="260" y="30" type="line"/>
 			<point x="192" y="43" type="line"/>
@@ -12,8 +12,8 @@
 			<point x="190" y="164"/>
 			<point x="190" y="211" type="curve"/>
 			<point x="190" y="338" type="line"/>
-			<point name="hintSet0006" x="193" y="471" type="line"/>
-			<point name="hintSet0007" x="180" y="481" type="line"/>
+			<point x="193" y="471" type="line"/>
+			<point name="hintRef0001" x="180" y="481" type="line"/>
 			<point x="30" y="425" type="line"/>
 			<point x="30" y="396" type="line"/>
 			<point x="107" y="385" type="line"/>
@@ -27,8 +27,8 @@
 			<point x="35" y="30" type="line"/>
 		</contour>
 		<contour>
-			<point name="hintSet0015" x="146" y="583" type="curve"/>
-			<point x="180" y="583"/>
+			<point x="146" y="583" type="curve"/>
+			<point name="hintRef0002" x="180" y="583"/>
 			<point x="208" y="607"/>
 			<point x="208" y="644" type="curve"/>
 			<point x="208" y="679"/>
@@ -56,15 +56,15 @@
 		</contour>
 		<contour>
 			<point x="301" y="-253" type="curve"/>
-			<point name="hintSet0026" x="355" y="-253"/>
+			<point x="355" y="-253"/>
 			<point x="385" y="-234"/>
 			<point x="418" y="-201" type="curve"/>
-			<point x="469" y="-149"/>
+			<point name="hintRef0003" x="469" y="-149"/>
 			<point x="477" y="-75"/>
 			<point x="477" y="81" type="curve"/>
 			<point x="477" y="338" type="line"/>
 			<point x="480" y="471" type="line"/>
-			<point name="hintSet0030" x="468" y="481" type="line"/>
+			<point name="hintRef0004" x="468" y="481" type="line"/>
 			<point x="320" y="425" type="line"/>
 			<point x="320" y="396" type="line"/>
 			<point x="397" y="385" type="line"/>
@@ -85,7 +85,7 @@
 			<point x="244" y="-160"/>
 			<point x="223" y="-173"/>
 			<point x="216" y="-200" type="curve"/>
-			<point name="hintSet0041" x="219" y="-226"/>
+			<point x="219" y="-226"/>
 			<point x="247" y="-253"/>
 		</contour>
 	</outline>
@@ -97,20 +97,7 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -253 93</string>
-							<string>hstem 0 30</string>
-							<string>hstem 481 -20</string>
-							<string>hstem 583 121</string>
-							<string>vstem 110 80</string>
-							<string>vstem 400 77</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0006</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -253 93</string>
@@ -123,7 +110,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0007</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -253 93</string>
@@ -136,7 +123,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0015</string>
+						<string>hintRef0002</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -253 93</string>
@@ -149,7 +136,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0026</string>
+						<string>hintRef0003</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -253 93</string>
@@ -162,7 +149,7 @@
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0030</string>
+						<string>hintRef0004</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -253 93</string>
@@ -171,19 +158,6 @@
 							<string>hstem 583 121</string>
 							<string>vstem 110 80</string>
 							<string>vstem 400 77</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0041</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -253 93</string>
-							<string>hstem 0 30</string>
-							<string>hstem 481 -20</string>
-							<string>hstem 583 121</string>
-							<string>vstem 83 125</string>
-							<string>vstem 373 126</string>
 						</array>
 					</dict>
 				</array>

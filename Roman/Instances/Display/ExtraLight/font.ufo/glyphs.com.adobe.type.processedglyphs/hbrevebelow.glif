@@ -4,7 +4,7 @@
 	<advance width="546"/>
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="40" y="0" type="line"/>
+			<point name="hintRef0000" x="40" y="0" type="line"/>
 			<point x="224" y="0" type="line"/>
 			<point x="224" y="10" type="line"/>
 			<point x="148" y="15" type="line"/>
@@ -38,9 +38,9 @@
 			<point x="212" y="435"/>
 			<point x="146" y="357" type="curve"/>
 			<point x="146" y="576" type="line"/>
-			<point name="hintSet0020" x="148" y="743" type="line"/>
-			<point x="142" y="748" type="line"/>
-			<point name="hintSet0022" x="40" y="740" type="line"/>
+			<point x="148" y="743" type="line"/>
+			<point name="hintRef0001" x="142" y="748" type="line"/>
+			<point x="40" y="740" type="line"/>
 			<point x="40" y="730" type="line"/>
 			<point x="122" y="730" type="line"/>
 			<point x="122" y="208" type="line"/>
@@ -74,33 +74,20 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -203 20</string>
 							<string>hstem 0 12.5</string>
 							<string>hstem 444 16</string>
-							<string>hstem 730 18</string>
+							<string>hstem 743 -20</string>
 							<string>vstem 122 24</string>
 							<string>vstem 416 24</string>
 						</array>
 					</dict>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0020</string>
-						<key>stems</key>
-						<array>
-							<string>hstem -203 20</string>
-							<string>hstem 0 12.5</string>
-							<string>hstem 444 16</string>
-							<string>hstem 730 13</string>
-							<string>vstem 122 24</string>
-							<string>vstem 416 24</string>
-						</array>
-					</dict>
-					<dict>
-						<key>pointTag</key>
-						<string>hintSet0022</string>
+						<string>hintRef0001</string>
 						<key>stems</key>
 						<array>
 							<string>hstem -203 20</string>
@@ -109,7 +96,6 @@
 							<string>hstem 730 18</string>
 							<string>vstem 122 24</string>
 							<string>vstem 395 11</string>
-							<string>vstem 416 24</string>
 						</array>
 					</dict>
 				</array>

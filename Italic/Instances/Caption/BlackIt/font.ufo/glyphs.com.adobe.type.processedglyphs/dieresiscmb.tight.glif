@@ -2,14 +2,14 @@
 <glyph name="dieresiscmb.tight" format="2">
 	<outline>
 		<contour>
-			<point name="hintSet0000" x="-11" y="597" type="curve"/>
+			<point name="hintRef0000" x="-11" y="597" type="curve"/>
 			<point x="45" y="597"/>
 			<point x="82" y="641"/>
 			<point x="82" y="688" type="curve"/>
 			<point x="82" y="730"/>
 			<point x="50" y="761"/>
 			<point x="3" y="761" type="curve"/>
-			<point x="-53" y="761"/>
+			<point name="hintRef0001" x="-53" y="761"/>
 			<point x="-89" y="717"/>
 			<point x="-89" y="670" type="curve"/>
 			<point x="-89" y="628"/>
@@ -20,7 +20,7 @@
 			<point x="254" y="597"/>
 			<point x="291" y="641"/>
 			<point x="291" y="688" type="curve"/>
-			<point x="291" y="730"/>
+			<point name="hintRef0002" x="291" y="730"/>
 			<point x="260" y="761"/>
 			<point x="212" y="761" type="curve"/>
 			<point x="156" y="761"/>
@@ -39,11 +39,28 @@
 				<array>
 					<dict>
 						<key>pointTag</key>
-						<string>hintSet0000</string>
+						<string>hintRef0000</string>
 						<key>stems</key>
 						<array>
 							<string>hstem 597 164</string>
 							<string>vstem -89 171</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0001</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 597 164</string>
+							<string>vstem -89 380</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>hintRef0002</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 597 164</string>
 							<string>vstem 120 171</string>
 						</array>
 					</dict>
